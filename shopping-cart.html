@@ -32,29 +32,34 @@
 
         .product-detail{
             width: 360px;
-            padding-bottom: 24px;
+            height: 100vh;
+            padding: 24px;
             position: absolute;
             /* right: 0; */            
         }
         
         .title-container{
             display: flex;
+            height: 5%;
+            align-items: center;
+            
         }
 
         .title-container img{
             transform: rotate(180deg);
             margin-left: 10px;
             margin-right: 14PX;
+            height: 18px;
+            width: 18px;
         }
 
         .title{
             font-size: var(--lg);
-            font-weight: bold;
+            font-weight: bold;            
         }
         
         .order{
-            display: grid;
-            flex-direction: column;
+            display: grid;            
             grid-template-columns: auto 1fr;
             gap: 18px;
             align-items: center;
@@ -110,7 +115,7 @@
             cursor: pointer;
             font-size: var(--md);
             font-weight: bold;
-            height: 48px;            
+            height: 48px;
         }
 
         @media (max-width: 640px) {
@@ -125,9 +130,8 @@
     <aside class="product-detail">
         <div class="title-container">
             <img src="./imagenes/YardSale_Icons/flechita.svg" alt="">
-            <p class="title">Shopping cart</p>
+            <h1 class="title">Shopping cart</h1>
         </div>
-
 
         <div class="my-order-content">
             <div class="shopping-cart">
@@ -135,7 +139,7 @@
                     <img src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/penny-farthing-love-garry-gay.jpg" alt="bike for sale">
                 </figure>
                 <p>Bike</p>
-                <p>$$$$$$$$</p>
+                <p>$Precio</p>
                 <img src="./imagenes/YardSale_Icons/icon_close.png" alt="close">
             </div>
             <div class="shopping-cart">
@@ -143,7 +147,23 @@
                     <img src="https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/purple-bicycle-and-flowers-david-smith.jpg" alt="bike for sale">
                 </figure>
                 <p>Bike</p>
-                <p>$$$$$$$$</p>
+                <p>$Precio</p>
+                <img src="./imagenes/YardSale_Icons/icon_close.png" alt="close">
+            </div>
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/purple-bicycle-and-flowers-david-smith.jpg" alt="bike for sale">
+                </figure>
+                <p>Bike</p>
+                <p>$Precio</p>
+                <img src="./imagenes/YardSale_Icons/icon_close.png" alt="close">
+            </div>
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/purple-bicycle-and-flowers-david-smith.jpg" alt="bike for sale">
+                </figure>
+                <p>Bike</p>
+                <p>$Precio</p>
                 <img src="./imagenes/YardSale_Icons/icon_close.png" alt="close">
             </div>
             <div class="order">
